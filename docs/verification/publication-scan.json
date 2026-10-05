@@ -1,0 +1,30 @@
+{
+  "scope": "standalone repository candidate only",
+  "inspected_files": 58,
+  "findings": [],
+  "blocking_findings": 0,
+  "ambiguous_numeric_token_coincidences": 902,
+  "numeric_collision_interpretation": "Identifier numbers may equal independent measurements, counts, seeds or package versions; lexical equality alone cannot prove identifier disclosure. Sensitive-key, encoder/scaler and contextual source-row inspections are authoritative here.",
+  "methods": [
+    "Private raw identifier set comparison by sensitive key",
+    "Full UTF-8 source and JSON traversal",
+    "Decoded notebook output inspection",
+    "Raw MAC pattern inspection",
+    "Trusted local joblib encoder/scaler inspection",
+    "weights_only checkpoint structural inspection",
+    "Explicit unsupported-binary review",
+    "Public file allowlist and no real-history catalog checks"
+  ],
+  "limitations": "No differential-privacy, membership-inference or model inversion guarantee. Semantic inspection cannot prove all arbitrary strings safe; source-code/dataset rights remain separate. Built dist is separately scanned when requested.",
+  "status": "PASS_CONTENT_SCAN",
+  "security_findings": [],
+  "no_private_paths_or_tools": true,
+  "no_raw_dataset_notebook_pdf": true,
+  "no_git_directory": true,
+  "build_content_check": {
+    "status": "PASS_CONTENT_SCAN",
+    "files": 3,
+    "timing": "Standalone production assets inspected before generated output was removed."
+  },
+  "generated_output_removed": true
+}

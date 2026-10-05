@@ -1,0 +1,600 @@
+{
+  "source_boundary": "Source-only first public commit. Ten retained local artifacts are excluded; source contains no imported private artifacts.",
+  "no_git_init_commit_push": true,
+  "no_retraining": true,
+  "all_eight_model_files_unchanged": true,
+  "dynamic_hash_exclusions": [
+    "docs/repository-inventory.json"
+  ],
+  "entries": [
+    {
+      "path": ".gitattributes",
+      "category": "configuration",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "391e3b2750df509142e1e3372243668d4903358dd395ee1d4898797f02bf86cd",
+      "bytes": 553,
+      "included_in_first_commit": true
+    },
+    {
+      "path": ".gitignore",
+      "category": "configuration",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "7b649e78bc9e38863672a3aa208500fe08dfa21749dc84dea7921b46ae5117f6",
+      "bytes": 944,
+      "included_in_first_commit": true
+    },
+    {
+      "path": "CITATION.cff",
+      "category": "metadata",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "122971d2e42ba624ae236406bcfe36a032d1e41a48ac8e855716e288023d1b90",
+      "bytes": 950,
+      "included_in_first_commit": true
+    },
+    {
+      "path": "README.md",
+      "category": "documentation",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "010ff4909ace5efc6492c1de475382d1bfa621268535ee321d79ed18c81c4039",
+      "bytes": 14833,
+      "included_in_first_commit": true
+    },
+    {
+      "path": "backend/.env.example",
+      "category": "configuration",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "4427985a5ca1426d365bcd4f71e5e41136643dc109cd2ef62dcbea8ee8fd7236",
+      "bytes": 144,
+      "public_release_source": "backend/.env.example",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "backend/app/__init__.py",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "b9b742c8db0d230a91e4d24a14019698c33f47d43245bdfe0667b3dc2161c724",
+      "bytes": 42,
+      "public_release_source": "backend/app/__init__.py",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "backend/app/inference.py",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "a15b411929516d208ccfa52373a1e46fae97f6f9ca11c5413a563194096476fe",
+      "bytes": 7032,
+      "public_release_source": "backend/app/inference.py",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "backend/app/preprocessing.py",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "0c3d02a8770b291de4d78395cf988112a2646a201dfb1351f099ef5eb86ae8a3",
+      "bytes": 8965,
+      "public_release_source": "backend/app/preprocessing.py",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "backend/app/public_inference.py",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "161d4d48682c3adfad49de46e4bfe552b174e9f02b144abf3dc3e2076cb2f128",
+      "bytes": 1294,
+      "public_release_source": "backend/app/public_inference.py",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "backend/app/public_main.py",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "7d0cea380cc0a2c9c8432435a5e39e9526b6a9d43c2e9ceb49d0efe0a857d953",
+      "bytes": 3978,
+      "public_release_source": "backend/app/public_main.py",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "backend/app/public_preprocessing.py",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "4126171bf30bac7f2093efd365fd6512ba6b9d176d500b5fd70704b317319efa",
+      "bytes": 5270,
+      "public_release_source": "backend/app/public_preprocessing.py",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "backend/app/public_schema.py",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "5707465b4e482549cd643dacce315cba8454a712998e7c96f434e0665393e617",
+      "bytes": 904,
+      "public_release_source": "backend/app/public_schema.py",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "backend/app/schemas.py",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "3889a93258f67eeb2b23ecfc0e914cd6c16e798d4a52d512f9cf03af78e9689e",
+      "bytes": 627,
+      "public_release_source": "backend/app/schemas.py",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "backend/constraints-baseline.txt",
+      "category": "configuration",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "4305fe22246fe2c893887abb3f5d342a47f816b5c7f77e83f3696fc741cff306",
+      "bytes": 1004,
+      "public_release_source": "backend/constraints-baseline.txt",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "backend/pytest.ini",
+      "category": "configuration",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "included_in_first_commit": true,
+      "sha256": "96c80a3a151dc8bfed2a6d21493abd512b8ca1e8236f0b98b98ca1ebfdb181a1",
+      "bytes": 118
+    },
+    {
+      "path": "backend/requirements-test.txt",
+      "category": "configuration",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "bcf4dc9530b1597579ba2e859b63f4a8edca0092e75c7e0c71b15fc23bf90a32",
+      "bytes": 107,
+      "public_release_source": "backend/requirements-test.txt",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "backend/requirements.txt",
+      "category": "configuration",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "ec3aefdf4ca31850cb210fbfb93a500d2dc7d8f1932fffc6c3bcf38d30171682",
+      "bytes": 260,
+      "public_release_source": "backend/requirements.txt",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "backend/tests/test_public.py",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "ecbe891ac31188140b21c57732000547f01894ae6ded60b2610b073f5bb8bf6e",
+      "bytes": 5859,
+      "public_release_source": "backend/tests/test_public.py",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "backend/tests/test_source.py",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "included_in_first_commit": true,
+      "sha256": "03793ec7783a1d6c7f22de4ba60e703fb8f60df3b6a7bc3902311a70b6a14035",
+      "bytes": 6159
+    },
+    {
+      "path": "backend/train_energy_public.py",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "e373b3dfeb971ff4cd5266467293eee17d1a24c31f358eb24accc8d686812c8c",
+      "bytes": 13868,
+      "public_release_source": "backend/train_energy_public.py",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "data/README.md",
+      "category": "documentation",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "24d917ad5e75a89c87576edf54d1afe02d7d3a613d06cb2a56dd53dca89e38b8",
+      "bytes": 2142,
+      "included_in_first_commit": true
+    },
+    {
+      "path": "docs/ARTIFACTS.md",
+      "category": "documentation",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "4203802da6e9265d5246f0ae9fc319d49402f6180584d3cbf799a937725e59c8",
+      "bytes": 2645,
+      "included_in_first_commit": true
+    },
+    {
+      "path": "docs/STAGING.md",
+      "category": "documentation",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "a77817822f68c8f5e7833d9670510a9a55185bd1e0e19f5af99539b18c1d8e2b",
+      "bytes": 2102,
+      "included_in_first_commit": true
+    },
+    {
+      "path": "docs/artifact-decision-files.txt",
+      "category": "documentation",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "46c8a422f6783182e3b443d3b8f3aa00e0b457b50fe122a586620ecfe2633c27",
+      "bytes": 454,
+      "included_in_first_commit": true
+    },
+    {
+      "path": "docs/associated-publication.md",
+      "category": "documentation",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "1a83816487ff08c6899b486495a127ba1d83f2c652bdce79375ce2ec7db12cce",
+      "bytes": 915,
+      "included_in_first_commit": true
+    },
+    {
+      "path": "docs/evaluation/matched-cohort-comparison.json",
+      "category": "generated evaluation or verification report",
+      "redistribution_review_required": true,
+      "release_status": "WITHHELD_FROM_FIRST_PUBLIC_COMMIT",
+      "sha256": "45463bef70530fdfbf4a19b2d97fa5d4866023b6d4c27ccfde20c2e41c9c8ef8",
+      "bytes": 1251,
+      "public_release_source": "docs/public-model-comparison.json",
+      "included_in_first_commit": false
+    },
+    {
+      "path": "docs/evaluation/release-candidate-results.md",
+      "category": "documentation",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "included_in_first_commit": true,
+      "sha256": "dcce67f4a775c7da68e0f2fdf153f3fe1d858706b7eb75943b2eb445f5adb90b",
+      "bytes": 3318
+    },
+    {
+      "path": "docs/feature-audit.md",
+      "category": "documentation",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "9d0d12290decc5d6863b3d365fd3d00a1ac88b2da574b2cabf8783e79b2a5b95",
+      "bytes": 10720,
+      "public_release_source": "docs/public-feature-audit.md",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "docs/first-commit-files.txt",
+      "category": "documentation",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "b4bc6b748430bf126047a70ea78620f4082535284c542e0c9001ec8f7369ed5c",
+      "bytes": 1509,
+      "included_in_first_commit": true
+    },
+    {
+      "path": "docs/methodology.md",
+      "category": "documentation",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "0a637793fb064332044d18178b85311bf82b9d65aeefc4770c590bfe0bc15013",
+      "bytes": 3451,
+      "included_in_first_commit": true
+    },
+    {
+      "path": "docs/repository-inventory.json",
+      "category": "metadata",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "docs/reproducibility.md",
+      "category": "documentation",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "b58682f539d16154a436c27f8e1fe540618bdcc47f72db05d989691fa164c8e7",
+      "bytes": 3329,
+      "included_in_first_commit": true
+    },
+    {
+      "path": "docs/source-review-files.txt",
+      "category": "documentation",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "b4bc6b748430bf126047a70ea78620f4082535284c542e0c9001ec8f7369ed5c",
+      "bytes": 1509,
+      "included_in_first_commit": true
+    },
+    {
+      "path": "docs/verification/browser-checks.json",
+      "category": "generated evaluation or verification report",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "3d3972fcfb7343af21879991fdfe63e7b718001d56d9a4ccbcf40d90a64500ef",
+      "bytes": 377,
+      "included_in_first_commit": true
+    },
+    {
+      "path": "docs/verification/prediction-equivalence.json",
+      "category": "generated evaluation or verification report",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "66c6e6ffe6114f4b21577b64f022480103b7edd5cb2e270378077ab88c495708",
+      "bytes": 1083,
+      "included_in_first_commit": true
+    },
+    {
+      "path": "docs/verification/publication-scan.json",
+      "category": "generated evaluation or verification report",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "included_in_first_commit": true,
+      "sha256": "2f595285954dfb47c80dad27d9fc71036664ed4902ff06799d1ee425129f7ee0",
+      "bytes": 1521
+    },
+    {
+      "path": "docs/verification/runtime-checks.json",
+      "category": "generated evaluation or verification report",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "0debb4795192bdb2bb1d5243d7df77228b1dde37995dc6515c924ac9b4e36ed9",
+      "bytes": 2275,
+      "included_in_first_commit": true
+    },
+    {
+      "path": "docs/verification/source-only-release-checks.json",
+      "category": "generated evaluation or verification report",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "included_in_first_commit": true,
+      "sha256": "f6492392b48a46451f223195c4780ae563689f374b97f09e90bacf06e6d4309f",
+      "bytes": 2258
+    },
+    {
+      "path": "docs/verification/training-data-checks.json",
+      "category": "generated evaluation or verification report",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "2551689c29f2b7fe609c94a529f329b00b2695cd4447f355b6f76b5d1ead6f5e",
+      "bytes": 561,
+      "public_release_source": "docs/public-data-verification.json",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "frontend/.env.example",
+      "category": "configuration",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "c13b2828b88c9b8d0118f77fd1ad813d778a7881878a286fa72324ac042a786f",
+      "bytes": 40,
+      "public_release_source": "frontend/.env.example",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "frontend/index.html",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "10b06af455adf6b9a0a13321e6004ae63d2c4b241cb70c3bd0d162707bc78bd0",
+      "bytes": 426,
+      "public_release_source": "frontend/index.html",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "category": "configuration",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "bff6e04e18e2173d9349d9787187ffb758c19ded353a977d218df66c7c9ab457",
+      "bytes": 43240,
+      "public_release_source": "frontend/package-lock.json",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "frontend/package.json",
+      "category": "configuration",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "e40db27532f6b690bb6bf5a2ba82136f80388cf38b05a011b9ece2e19f2c52ef",
+      "bytes": 442,
+      "public_release_source": "frontend/package.json",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "frontend/src/App.jsx",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "4a8dbc20ec9085e8596ee4b399d7cdb5837fa37a2ee60257e28e3069794979bb",
+      "bytes": 214,
+      "public_release_source": "frontend/src/App.jsx",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "frontend/src/components/ForecastView.jsx",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "d45585b79b176c9b7f8b0e9b4b69ed21a0731549aec33aaf9503fd75b7a3cb7d",
+      "bytes": 6338,
+      "public_release_source": "frontend/src/components/ForecastView.jsx",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "frontend/src/data/inputCatalog.json",
+      "category": "metadata",
+      "redistribution_review_required": true,
+      "release_status": "WITHHELD_FROM_FIRST_PUBLIC_COMMIT",
+      "sha256": "6cb7ec71b145ffaadbfc9064a0ecd7fa7eff7131cc0afe93b887095181c974f0",
+      "bytes": 4792,
+      "public_release_source": "frontend/src/data/inputCatalog.json",
+      "included_in_first_commit": false
+    },
+    {
+      "path": "frontend/src/data/publicSchema.js",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "included_in_first_commit": true,
+      "sha256": "f540f9ae7cad3bc9e3804a666752b8c5b0f2ab6c751502eed0de343c994a453e",
+      "bytes": 1099
+    },
+    {
+      "path": "frontend/src/main.jsx",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "aba83d552b942436180f0f2ebe95f11be0c6bcf0ae85da0fe8265babd7b78fe1",
+      "bytes": 236,
+      "public_release_source": "frontend/src/main.jsx",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "frontend/src/services/predictionInputs.js",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "ecef99b5a589743f2643716a64e3074bcdcb77ad5e546fcd00dfa22e5782cc89",
+      "bytes": 4669,
+      "public_release_source": "frontend/src/services/predictionInputs.js",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "frontend/src/services/predictionService.js",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "d2652a6f9f248a4ba1e13e652ebc9920d5507ab53200c87502ea97807ad1c882",
+      "bytes": 5242,
+      "public_release_source": "frontend/src/services/predictionService.js",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "frontend/src/styles.css",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "53f4616eb3284dbdd3614be12b38cd736b3324e37141ca8b8d47cd2bfd2b5090",
+      "bytes": 27792,
+      "public_release_source": "frontend/src/styles.css",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "frontend/tests/public.test.js",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "c8caa21625c3860d905dba7938b33df16b69306c7c710097ced3e1577ffa6750",
+      "bytes": 4730,
+      "public_release_source": "frontend/tests/public.test.js",
+      "included_in_first_commit": true
+    },
+    {
+      "path": "models/energy_public_v1/feature_metadata.json",
+      "category": "metadata",
+      "redistribution_review_required": true,
+      "release_status": "WITHHELD_FROM_FIRST_PUBLIC_COMMIT",
+      "sha256": "b7058831a86b47947ccf0444716e850d4790da713a1d1a35386e229f67df7b97",
+      "bytes": 1051,
+      "public_release_source": "backend/models/energy_public_v1/feature_metadata.json",
+      "included_in_first_commit": false
+    },
+    {
+      "path": "models/energy_public_v1/informer_checkpoint.pth",
+      "category": "trained weights",
+      "redistribution_review_required": true,
+      "release_status": "WITHHELD_FROM_FIRST_PUBLIC_COMMIT",
+      "sha256": "73e8911303832bc746f9e8fcd212357b3061be563c56a8ed8dc0a26e44383bba",
+      "bytes": 147267,
+      "public_release_source": "backend/models/energy_public_v1/informer_checkpoint.pth",
+      "included_in_first_commit": false
+    },
+    {
+      "path": "models/energy_public_v1/label_encoders.joblib",
+      "category": "learned preprocessing",
+      "redistribution_review_required": true,
+      "release_status": "WITHHELD_FROM_FIRST_PUBLIC_COMMIT",
+      "sha256": "7bf2ba06b54dd5eb3e215cb41a7f1bfa929b857ade01262b5f90fbcc60d3305d",
+      "bytes": 2385,
+      "public_release_source": "backend/models/energy_public_v1/label_encoders.joblib",
+      "included_in_first_commit": false
+    },
+    {
+      "path": "models/energy_public_v1/manifest.json",
+      "category": "metadata",
+      "redistribution_review_required": true,
+      "release_status": "WITHHELD_FROM_FIRST_PUBLIC_COMMIT",
+      "sha256": "a5b837ca50c8aabec294fed9ec54bf18de9e0a11ac1236b64c35fda5826a289b",
+      "bytes": 678,
+      "public_release_source": "backend/models/energy_public_v1/manifest.json",
+      "included_in_first_commit": false
+    },
+    {
+      "path": "models/energy_public_v1/minmax_scaler.joblib",
+      "category": "learned preprocessing",
+      "redistribution_review_required": true,
+      "release_status": "WITHHELD_FROM_FIRST_PUBLIC_COMMIT",
+      "sha256": "bab3528953ddbd4132f3cc3925af66446cd3548d60dbdb93e569f054763a8606",
+      "bytes": 1527,
+      "public_release_source": "backend/models/energy_public_v1/minmax_scaler.joblib",
+      "included_in_first_commit": false
+    },
+    {
+      "path": "models/energy_public_v1/prediction_catalog.json",
+      "category": "metadata",
+      "redistribution_review_required": true,
+      "release_status": "WITHHELD_FROM_FIRST_PUBLIC_COMMIT",
+      "sha256": "dfaef8742dba0c4da28a2e5298baa730f79bf8c3d32720eb5a37e6f00d3a64a7",
+      "bytes": 322,
+      "public_release_source": "backend/models/energy_public_v1/prediction_catalog.json",
+      "included_in_first_commit": false
+    },
+    {
+      "path": "models/energy_public_v1/target_scaler.joblib",
+      "category": "learned preprocessing",
+      "redistribution_review_required": true,
+      "release_status": "WITHHELD_FROM_FIRST_PUBLIC_COMMIT",
+      "sha256": "bdbbf51ff6f8aade08000b3c019e783156fb3b8fd478720eb1c8a7ecf4cb72a0",
+      "bytes": 991,
+      "public_release_source": "backend/models/energy_public_v1/target_scaler.joblib",
+      "included_in_first_commit": false
+    },
+    {
+      "path": "models/energy_public_v1/training_report.json",
+      "category": "generated evaluation or verification report",
+      "redistribution_review_required": true,
+      "release_status": "WITHHELD_FROM_FIRST_PUBLIC_COMMIT",
+      "sha256": "7c99647ecd6a39eca0d9493e6710a719525a4e37825fc18491b2a4c7ef9e1b7a",
+      "bytes": 7582,
+      "public_release_source": "backend/models/energy_public_v1/training_report.json",
+      "included_in_first_commit": false
+    },
+    {
+      "path": "training/train.py",
+      "category": "source code",
+      "redistribution_review_required": false,
+      "release_status": "SOURCE_AND_DOCUMENTATION_REVIEW",
+      "sha256": "6af468c04d9605d1c26b88e6785a4e3319ca21d0c1b3dc05ed5b24802b937b36",
+      "bytes": 885,
+      "included_in_first_commit": true
+    }
+  ],
+  "release_scope": "source-only first public commit",
+  "first_commit_file_list": "docs/first-commit-files.txt",
+  "excluded_first_commit_artifacts": "docs/artifact-decision-files.txt",
+  "all_ten_excluded_artifacts_unchanged": true,
+  "snapshot_note": "File hashes and sizes describe the earlier release-preparation snapshot. Publication-list metadata has since been updated; this inventory is not a fresh validation of the current tree."
+}

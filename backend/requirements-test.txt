@@ -1,0 +1,4 @@
+# Test dependencies from the pre-cleanup environment.
+-r requirements.txt
+pytest==9.1.1
+httpx2==2.13.0

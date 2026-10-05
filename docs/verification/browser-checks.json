@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "actual_prediction_post_statuses": [
+    200
+  ],
+  "runtime_errors": [],
+  "checks": [
+    "No sensitive controls",
+    "Empty input blocks POST",
+    "24 complete constructed rows produce real network inference",
+    "Zero and time fields survive pagination and station changes",
+    "Mobile viewport fits"
+  ],
+  "constructed_test_values_only": true
+}
