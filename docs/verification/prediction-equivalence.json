@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "platform": "Windows CPU",
+  "tolerance_absolute_kwh": 1e-07,
+  "constructed_structural_inputs_only": true,
+  "cases": [
+    {
+      "case": 1,
+      "input_sha256": "97ad4f1597b2a9bfe5f013bf9597f5d354475b266d989eedeb1489375fac48ce",
+      "before_kwh": 11.635510936379431,
+      "after_kwh": 11.635510936379431,
+      "absolute_difference_kwh": 0.0,
+      "http_status": 200
+    },
+    {
+      "case": 2,
+      "input_sha256": "f4f8b73034f0a563023ad3aff9a059a2dda2bd4587d2cbb7d8360d3496219995",
+      "before_kwh": 11.888027424514291,
+      "after_kwh": 11.888027424514291,
+      "absolute_difference_kwh": 0.0,
+      "http_status": 200
+    },
+    {
+      "case": 3,
+      "input_sha256": "0eec92deed31502c4dbe64a5bfca31a26585e2cf8a3138d90c8003f1f689265e",
+      "before_kwh": 12.147740145623683,
+      "after_kwh": 12.147740145623683,
+      "absolute_difference_kwh": 0.0,
+      "http_status": 200
+    }
+  ],
+  "original_release_changed_files": [],
+  "all_eight_bundle_files_byte_identical": true,
+  "no_retraining": true
+}

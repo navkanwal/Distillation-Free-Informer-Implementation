@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-05",
+  "release_scope": "source-only first public commit",
+  "status": "PASSED",
+  "candidate_commit_files": 53,
+  "excluded_artifact_paths": 10,
+  "precise_root_anchored_gitignore_entries": true,
+  "unrelated_json_metadata_checkpoint_model_files_not_globally_ignored": true,
+  "commit_list_artifact_overlap": [],
+  "source_only_copy_contains_none_of_the_ten_artifacts": true,
+  "backend_source_tests": {
+    "passed": 30,
+    "failed": 0,
+    "artifact_tests_deselected": 20
+  },
+  "source_only_copy_full_backend_suite": {
+    "passed": 31,
+    "failed": 0,
+    "skipped": 19,
+    "skip_reason": "Artifact integration checks require a locally regenerated complete bundle."
+  },
+  "frontend_source_tests": {
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0
+  },
+  "source_only_copy_frontend_tests": {
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0
+  },
+  "production_build": "passed both in workspace and source-only copy",
+  "real_uvicorn_startup_without_artifacts": {
+    "exit_code": 1,
+    "expected_failure": true,
+    "explanation": "Complete energy_public_v1 bundle required; artifacts withheld; regeneration instructions and PUBLIC_MODEL_PATH supplied; no internal/private fallback."
+  },
+  "training_wrapper_help": "passed; no training invoked",
+  "all_ten_retained_artifact_bytes_unchanged": true,
+  "original_trainer_model_preprocessing_schema_hashes_match_candidate_report": true,
+  "frontend_design_and_dependency_lock_unchanged": true,
+  "recorded_metrics_transcribed_exactly_to_results_documentation": true,
+  "local_markdown_links_resolve_within_commit_list": true,
+  "historical_verification_reports": "Preserved; runtime/browser/equivalence/training-data reports describe the candidate with artifacts present.",
+  "backend_environment": "Reused the previously verified isolated Python environment; no private/internal model artifacts loaded.",
+  "frontend_dependency_install": "npm ci passed with network access after restricted-network EACCES caused an initial npm failure.",
+  "warnings": [
+    "Existing Starlette/AnyIO BlockingPortal deprecation warning"
+  ],
+  "no_git_init_commit_push": true,
+  "no_retraining": true,
+  "no_metric_recalculation": true
+}

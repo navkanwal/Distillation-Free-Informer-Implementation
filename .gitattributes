@@ -1,0 +1,17 @@
+# Stable source line endings; binary artifacts must remain byte-identical.
+* text=auto
+*.py text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.cff text eol=lf
+*.pth -text
+*.joblib -text
+# These JSON files are part of a hashed immutable bundle.
+models/energy_public_v1/*.json -text
+# Original trainer/model source bytes correspond to hashes in the training report.
+backend/train_energy_public.py -text
+backend/app/inference.py -text
+backend/app/preprocessing.py -text
+backend/app/public_schema.py -text

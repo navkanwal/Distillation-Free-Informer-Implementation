@@ -1,0 +1,40 @@
+# Local environments, secrets, and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+*.csv
+*.ipynb
+*.pdf
+local/
+.verification/
+.public-verification/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.codex/
+.agents/
+AGENTS.md
+CLAUDE.md
+# Source-only first release: exactly the ten paths in docs/artifact-decision-files.txt.
+# Retain local review copies; do not force-add these artifacts.
+/docs/evaluation/matched-cohort-comparison.json
+/frontend/src/data/inputCatalog.json
+/models/energy_public_v1/feature_metadata.json
+/models/energy_public_v1/informer_checkpoint.pth
+/models/energy_public_v1/label_encoders.joblib
+/models/energy_public_v1/manifest.json
+/models/energy_public_v1/minmax_scaler.joblib
+/models/energy_public_v1/prediction_catalog.json
+/models/energy_public_v1/target_scaler.joblib
+/models/energy_public_v1/training_report.json

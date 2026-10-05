@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "split_windows": {
+    "train": 179769,
+    "validation": 38906,
+    "test": 38807
+  },
+  "checks": [
+    "All windows stay within one station",
+    "All preceding 24 histories are public-complete",
+    "Named Energy target matches raw next-session Energy",
+    "Training feature scalers and fresh encoder classes equal saved inference artifacts",
+    "Nine real local sequences transform identically in trainer and API preprocessing",
+    "Chronological target cutoffs enforced"
+  ],
+  "real_histories_exported": false
+}
